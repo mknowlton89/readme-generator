@@ -8,26 +8,25 @@ This builds an awesome readme.
 
 - Installation Instructions
 - <a href="#Installation">Installation Instructions<a/>
-- Product Usage
-- Product Licensing
-- How to Contribute
-- How to Test
-- <a href="#tests">How To Test<a/>
-- Frequently Asked Questions (FAQ)
+- <a href="#usage">Product Usage<a/>
+- <a href="#licenses">Product Licensing<a/>
+- <a href="#contributing">How to Contribute<a/>
+- <a href="#tests">How to Test<a/>
+- <a href="#questions">Frequently Asked Questions (FAQ)<a/>
 
-## Installation
+## <h2 id="installation">Installation</h2>
 
 Command Line
 
-## Usage
+## <h2 id="usage">Usage</h2>
 
 Install it
 
-## License
+## <h2 id="licenses">Licenses</h2>
 
 Blah
 
-## Contributing
+## <h2 id="contributing">Contributing</h2>
 
 Blah Blah Blah
 
@@ -35,7 +34,7 @@ Blah Blah Blah
 
 Blah Blah Blah
 
-# Questions? Reach out to me directly!
+# <h2 id="questions">Questions? Reach out to me directly!</h2>
 
 <a href="github.com/mknowlton89">My GitHub</a>
 
