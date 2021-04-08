@@ -1,8 +1,8 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-let readMeTemplate = (`
-# ${project.title}
+const readMeTemplate = (project) =>
+    `# ${project.name}
 
 ## Description
 
@@ -10,7 +10,12 @@ ${project.description}
 
 ## Table of Contents
 
-${project.contents}
+- Installation Instructions
+- Product Usage
+- Product Licensing
+- How to Contribute
+- How to Test
+- Frequently Asked Questions (FAQ)
 
 ## Installation
 
@@ -37,7 +42,7 @@ ${project.tests}
 ${project.questions}
 
 
-`)
+`;
 
 // Prompt users for name, location, bio, LinkedIN URL, GitHub URL
 inquirer
@@ -45,32 +50,49 @@ inquirer
         {
             type: 'input',
             name: 'name',
-            message: 'What is your name?',
+            message: 'What is the name of your project?',
         },
         {
             type: 'input',
-            name: 'location',
-            message: 'What is your location?',
+            name: 'description',
+            message: 'Give a brief discription of your project?',
         },
         {
             type: 'input',
-            name: 'bio',
-            message: 'Tell me about yourself?',
+            name: 'installation',
+            message: 'How can someone install this project?',
         },
         {
             type: 'input',
-            name: 'linkedin',
-            message: 'What is your LinkedIn URL?',
+            name: 'usage',
+            message: 'How would someone use this project?',
         },
         {
             type: 'input',
-            name: 'github',
-            message: 'What is your GitHub URL?',
+            name: 'license',
+            message: 'What license does someone need for this project?',
+        },
+        {
+            type: 'input',
+            name: 'contributing',
+            message: 'How would someone contribute to this project?',
+        },
+        {
+            type: 'input',
+            name: 'tests',
+            message: 'What tests are available for this project?',
+        },
+        {
+            type: 'input',
+            name: 'questions',
+            message: 'What are some common questions someone might have about this project??',
         },
     ])
     .then((project) => {
-        const filename = "README.md";
+        const readMeContent = readMeTemplate(project);
 
-        console.log(project);
+        fs.writeFile('README.md', readMeContent, (err) =>
+            err ? console.log(err) : console.log('Successfully created README!')
+        );
 
-       
+    });
