@@ -1,12 +1,13 @@
-# The Bestest README Generator
+# Michael's Great README Generator
 
 ## Description
 
-This helps people build good readme docs for their project.
+This builds an awesome readme.
 
 ## Table of Contents
 
 - Installation Instructions
+- <a href="## Installation">Installation Instructions<a/>
 - Product Usage
 - Product Licensing
 - How to Contribute
@@ -15,26 +16,30 @@ This helps people build good readme docs for their project.
 
 ## Installation
 
-Git Clone
+Command Line
 
 ## Usage
 
-Run it via the command line
+Install it
 
 ## License
 
-Nada
+Blah
 
 ## Contributing
 
-They don't
+Blah Blah Blah
 
 ## Tests
 
-Nada
+Blah Blah Blah
 
-# Questions
+# Questions? Reach out to me directly!
 
-None, ATM
+<a href="github.com/mknowlton89">My GitHub</a>
+
+<a href="mailto:mknowlton89@gmail.com">Send me an email! (No spam, please)<a/>
+
+
 
 
