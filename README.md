@@ -7,11 +7,12 @@ This builds an awesome readme.
 ## Table of Contents
 
 - Installation Instructions
-- <a href="## Installation">Installation Instructions<a/>
+- <a href="#Installation">Installation Instructions<a/>
 - Product Usage
 - Product Licensing
 - How to Contribute
 - How to Test
+- <a href="#tests">How To Test<a/>
 - Frequently Asked Questions (FAQ)
 
 ## Installation
@@ -30,7 +31,7 @@ Blah
 
 Blah Blah Blah
 
-## Tests
+## <h2 id="tests">Tests</h2>
 
 Blah Blah Blah
 
