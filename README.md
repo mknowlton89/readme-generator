@@ -2,7 +2,7 @@
 
 ## <h2>Description</h2>
 
-This is a product that helps developers created awesome readme files.
+This is a command-line tool that helps developers created awesome, in-depth README files.
 
 ## <h2 id="">Table of Contents</h2>
 
@@ -15,11 +15,11 @@ This is a product that helps developers created awesome readme files.
 
 ## <h2 id="installation">Installation</h2>
 
-NPM Install md-generator
+This is not yet available for others. 
 
 ## <h2 id="usage">Usage</h2>
 
-Via their command line.
+Once available and installed via NPM, this can be ran in a user's terminal.
 
 ## <h2 id="license">License</h2>
 
@@ -27,7 +27,7 @@ Via their command line.
 
 ## <h2 id="contributing">Contributing</h2>
 
-Forking it, first.
+N/A
 
 ## <h2 id="tests">Tests</h2>
 
@@ -35,6 +35,6 @@ N/A
 
 # <h2 id="questions">Questions? Reach out to me directly!</h2>
 
-<a href="github.com/mknowlton89">My GitHub</a>
+<a href="https://www.github.com/mknowlton89">My GitHub</a>
 
 <a href="mailto:mknowlton89@gmail.com">Send me an email! (No spam, please)<a/>

@@ -51,7 +51,7 @@ ${project.tests}
 
 # <h2 id="questions">Questions? Reach out to me directly!</h2>
 
-<a href="${project.github}">My GitHub</a>
+<a href="https://www.github.com/${project.github}">My GitHub</a>
 
 <a href="mailto:${project.email}">Send me an email! (No spam, please)<a/>`;
 
@@ -98,7 +98,7 @@ inquirer
         {
             type: 'input',
             name: 'github',
-            message: 'What is your GitHub URL?',
+            message: 'What is your GitHub username?',
         },
         {
             type: 'input',
