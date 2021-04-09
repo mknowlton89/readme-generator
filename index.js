@@ -6,12 +6,8 @@ let badgeUrlString = "";
 
 const buildBadgeUrls = (badges) => {
 
-    // let badgeUrlString = "";
-
     for (let i = 0; i < badges.length; i++) {
         badgeUrlString = (badgeUrlString + `<img src="https://img.shields.io/npm/l/${badges[i]}">`)
-        console.log("BadgeUrlString is " + badgeUrlString);
-        // return badgeUrlString
     }
     return badgeUrlString;
 };
@@ -111,18 +107,12 @@ inquirer
         },
     ])
     .then((project) => {
-
-        console.log(project);
-
         const badges = project.badges;
-        // I could build the string of badge urls and add it to the project object, then do another .then 
         project.badgeString = buildBadgeUrls(badges);
-
-        console.log(project);
-
         const readMeContent = readMeTemplate(project);
 
         fs.writeFile('README.md', readMeContent, (err) =>
             err ? console.log(err) : console.log('Successfully created README!')
         );
-    });
+    })
+    .catch((err) => new Error(err));

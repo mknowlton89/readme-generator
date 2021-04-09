@@ -1,8 +1,8 @@
-# Michae's Great README Generator
+# Michael's Awesome README Generator
 
 ## <h2>Description</h2>
 
-Blah Blah Blah
+This is a product that helps developers created awesome readme files.
 
 ## <h2 id="">Table of Contents</h2>
 
@@ -15,26 +15,26 @@ Blah Blah Blah
 
 ## <h2 id="installation">Installation</h2>
 
-sdfds
+NPM Install md-generator
 
 ## <h2 id="usage">Usage</h2>
 
-sdfsd
+Via their command line.
 
 ## <h2 id="license">License</h2>
 
-<img src="https://img.shields.io/npm/l/axios"><img src="https://img.shields.io/npm/l/math"><img src="https://img.shields.io/npm/l/react"><img src="https://img.shields.io/npm/l/moment">
+<img src="https://img.shields.io/npm/l/axios"><img src="https://img.shields.io/npm/l/math"><img src="https://img.shields.io/npm/l/react">
 
 ## <h2 id="contributing">Contributing</h2>
 
-sdfsd
+Forking it, first.
 
 ## <h2 id="tests">Tests</h2>
 
-sdfsd
+N/A
 
 # <h2 id="questions">Questions? Reach out to me directly!</h2>
 
-<a href="sdfsd">My GitHub</a>
+<a href="github.com/mknowlton89">My GitHub</a>
 
-<a href="mailto:sdfsd">Send me an email! (No spam, please)<a/>
+<a href="mailto:mknowlton89@gmail.com">Send me an email! (No spam, please)<a/>
