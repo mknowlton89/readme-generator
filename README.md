@@ -1,41 +1,40 @@
-# sdfsd
+# Michael's README Generator
 
-## Description
-
-sdfs
-
-## Table of Contents
-
-- Installation Instructions
-- <a href="## Installation">Installation Instructions<a/>
-- Product Usage
-- Product Licensing
-- How to Contribute
-- How to Test
-- Frequently Asked Questions (FAQ)
-
-## Installation
+## <h2>Description</h2>
 
 sdfsd
 
-## Usage
+## <h2 id="">Table of Contents</h2>
 
-sdfs
+- <a href="#installation">Installation Instructions</a>
+- <a href="#usage">Product Usage</a>
+- <a href="#license">Product Licensing</a>
+- <a href="#contributing">How to Contribute</a>
+- <a href="#tests">How to Test</a>
+- <a href="#questions">Frequently Asked Questions (FAQ)</a>
 
-## License
+## <h2 id="installation">Installation</h2>
 
-undefined
+sdfsd
 
-## Contributing
+## <h2 id="usage">Usage</h2>
 
-sdfs
+sdfsd
 
-## Tests
+## <h2 id="license">License</h2>
 
-sdf
+APM,CPAN,GitHub,NPM
 
-# Questions? Reach out to me directly!
+## <h2 id="contributing">Contributing</h2>
 
-<a href="sdf">My GitHub</a>
+sdfsd
 
-<a href="mailto:sdf">Send me an email! (No spam, please)<a/>
+## <h2 id="tests">Tests</h2>
+
+sdfsd
+
+# <h2 id="questions">Questions? Reach out to me directly!</h2>
+
+<a href="sdfd">My GitHub</a>
+
+<a href="mailto:sdfs">Send me an email! (No spam, please)<a/>

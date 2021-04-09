@@ -12,12 +12,12 @@ ${project.description}
 
 ## <h2 id="">Table of Contents</h2>
 
-- <a href="#installation">Installation Instructions<a/>
-- <a href="#usage">Product Usage<a/>
-- <a href="#license">Product Licensing<a/>
-- <a href="#contributing">How to Contribute<a/>
-- <a href="#tests">How to Test<a/>
-- <a href="#questions">Frequently Asked Questions (FAQ)<a/>
+- <a href="#installation">Installation Instructions</a>
+- <a href="#usage">Product Usage</a>
+- <a href="#license">Product Licensing</a>
+- <a href="#contributing">How to Contribute</a>
+- <a href="#tests">How to Test</a>
+- <a href="#questions">Frequently Asked Questions (FAQ)</a>
 
 ## <h2 id="installation">Installation</h2>
 
@@ -29,7 +29,7 @@ ${project.usage}
 
 ## <h2 id="license">License</h2>
 
-${project.license}
+${project.badges}
 
 ## <h2 id="contributing">Contributing</h2>
 
@@ -57,7 +57,7 @@ inquirer
         {
             type: 'input',
             name: 'description',
-            message: 'Give a brief discription of your project?',
+            message: 'Give a brief description of your project?',
         },
         {
             type: 'input',
