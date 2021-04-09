@@ -9,7 +9,7 @@ const buildBadgeUrls = (badges) => {
     // let badgeUrlString = "";
 
     for (let i = 0; i < badges.length; i++) {
-        badgeUrlString = (badgeUrlString + `https://img.shields.io/apm/l/${badges[i]}\n `)
+        badgeUrlString = (badgeUrlString + `<img src="https://img.shields.io/npm/l/${badges[i]}">`)
         console.log("BadgeUrlString is " + badgeUrlString);
         // return badgeUrlString
     }
@@ -86,8 +86,8 @@ inquirer
         {
             type: 'checkbox',
             name: 'badges',
-            message: 'What license does someone need for this project?',
-            choices: ['vim-mode', 'CPAN', 'GitHub', 'NPM'],
+            message: 'Which NPM Packages are/will be used for this project? (HINT: To select an item, use the space bar, and use the up/down arrow keys to move between options.)',
+            choices: ['axios', 'math', 'react', 'moment', 'fs-extra'],
         },
         {
             type: 'input',
@@ -126,12 +126,3 @@ inquirer
             err ? console.log(err) : console.log('Successfully created README!')
         );
     });
-    // .then((project) => {
-
-    //     const readMeContent = readMeTemplate(project);
-
-    //     fs.writeFile('README.md', readMeContent, (err) =>
-    //         err ? console.log(err) : console.log('Successfully created README!')
-    //     );
-
-    // });
