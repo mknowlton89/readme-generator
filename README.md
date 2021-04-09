@@ -1,8 +1,8 @@
-# Michael's Awesome README Generator
+# Michael Knowlton's README Generator
 
 ## <h2>Description</h2>
 
-This is a command-line tool that helps developers created awesome, in-depth README files.
+This is a command-line tool to help developers write awesome READMEs
 
 ## <h2 id="">Table of Contents</h2>
 
@@ -15,15 +15,15 @@ This is a command-line tool that helps developers created awesome, in-depth READ
 
 ## <h2 id="installation">Installation</h2>
 
-This is not yet available for others. 
+N/A
 
 ## <h2 id="usage">Usage</h2>
 
-Once available and installed via NPM, this can be ran in a user's terminal.
+Eventually, this can be accessed via NPM
 
 ## <h2 id="license">License</h2>
 
-<img src="https://img.shields.io/npm/l/axios"><img src="https://img.shields.io/npm/l/math"><img src="https://img.shields.io/npm/l/react">
+<img src="https://img.shields.io/npm/l/axios"><img src="https://img.shields.io/npm/l/react"><img src="https://img.shields.io/npm/l/fs-extra">
 
 ## <h2 id="contributing">Contributing</h2>
 
@@ -37,4 +37,4 @@ N/A
 
 <a href="https://www.github.com/mknowlton89">My GitHub</a>
 
-<a href="mailto:mknowlton89@gmail.com">Send me an email! (No spam, please)<a/>
+<a href="mailto:mknowton89@gmail.com">Send me an email! (No spam, please)<a/>
