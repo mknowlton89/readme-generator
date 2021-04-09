@@ -1,6 +1,20 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
+let badgeUrlString = "";
+
+
+const buildBadgeUrls = (badges) => {
+
+    // let badgeUrlString = "";
+
+    for (let i = 0; i < badges.length; i++) {
+        badgeUrlString = (badgeUrlString + `https://img.shields.io/apm/l/${badges[i]}\n `)
+        console.log("BadgeUrlString is " + badgeUrlString);
+        // return badgeUrlString
+    }
+    return badgeUrlString;
+};
 
 const readMeTemplate = (project) =>
 
@@ -29,7 +43,7 @@ ${project.usage}
 
 ## <h2 id="license">License</h2>
 
-${project.badges}
+${project.badgeString}
 
 ## <h2 id="contributing">Contributing</h2>
 
@@ -73,7 +87,7 @@ inquirer
             type: 'checkbox',
             name: 'badges',
             message: 'What license does someone need for this project?',
-            choices: ['APM', 'CPAN', 'GitHub', 'NPM'],
+            choices: ['vim-mode', 'CPAN', 'GitHub', 'NPM'],
         },
         {
             type: 'input',
@@ -98,15 +112,26 @@ inquirer
     ])
     .then((project) => {
 
+        console.log(project);
+
         const badges = project.badges;
+        // I could build the string of badge urls and add it to the project object, then do another .then 
+        project.badgeString = buildBadgeUrls(badges);
 
-        console.log(badges.length);
-
+        console.log(project);
 
         const readMeContent = readMeTemplate(project);
 
         fs.writeFile('README.md', readMeContent, (err) =>
             err ? console.log(err) : console.log('Successfully created README!')
         );
-
     });
+    // .then((project) => {
+
+    //     const readMeContent = readMeTemplate(project);
+
+    //     fs.writeFile('README.md', readMeContent, (err) =>
+    //         err ? console.log(err) : console.log('Successfully created README!')
+    //     );
+
+    // });
