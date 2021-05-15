@@ -1,8 +1,8 @@
-# Michael Knowlton's README Generator
+# React Employee Directory
 
 ## <h2>Description</h2>
 
-This is a command-line tool to help developers write awesome READMEs
+This is a project created with Create-React-App that utilizes the RandomUser API to generate a random assortment of employees. This project also uses Axios, React Dom, React-Scripts and was an exercise to begin using the useState hook.
 
 ## <h2 id="">Table of Contents</h2>
 
@@ -15,15 +15,15 @@ This is a command-line tool to help developers write awesome READMEs
 
 ## <h2 id="installation">Installation</h2>
 
-N/A
+This project is available to view here - https://mknowlton89.github.io/employee-directory/
 
 ## <h2 id="usage">Usage</h2>
 
-Eventually, this can be accessed via NPM
+https://mknowlton89.github.io/employee-directory/
 
 ## <h2 id="license">License</h2>
 
-<img src="https://img.shields.io/npm/l/axios"><img src="https://img.shields.io/npm/l/react"><img src="https://img.shields.io/npm/l/fs-extra">
+
 
 ## <h2 id="contributing">Contributing</h2>
 
@@ -37,4 +37,4 @@ N/A
 
 <a href="https://www.github.com/mknowlton89">My GitHub</a>
 
-<a href="mailto:mknowton89@gmail.com">Send me an email! (No spam, please)<a/>
+<a href="mailto:mknowlton89@gmail.com">Send me an email! (No spam, please)<a/>
